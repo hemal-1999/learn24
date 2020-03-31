@@ -1,0 +1,7 @@
+.form-control{
+    border-radius:0;
+    background-color: rgba(0,0,0,0.1);
+}
+.container-control{
+    margin-top: 5em;
+}

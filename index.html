@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn 24 demo</title>
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <!-- /Poppins Font -->
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- /Bootstrap CDN -->
+  <!-- Custom css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- /Custom css -->
+
+
+  
+</head>
+
+<body>
+
+  <!-- Main Header -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <div id="logo" class="text-light text-uppercase mt-2">Website</div>
+      </div>
+      <div class="col-md-10 mt-2">
+        <nav style="position: relative; z-index: 5;">
+  
+          <label for="drop" class="toggle">Menu</label>
+          <input type="checkbox" id="drop" />
+              <ul class="menu" style="float: left;">
+                  <li><a href="#">Home</a></li>
+                  <li>
+                      <!-- First Tier Drop Down -->
+                      <label for="drop-1" class="toggle">WordPress +</label>
+                      <a href="#">WordPress</a>
+                      <input type="checkbox" id="drop-1"/>
+                      <ul>
+                          <li><a href="#">Themes and stuff</a></li>
+                          <li><a href="#">Plugins</a></li>
+                          <li><a href="#">Tutorials</a></li>
+                      </ul> 
+  
+                  </li>
+                  <li>
+  
+                  <!-- First Tier Drop Down -->
+                  <label for="drop-2" class="toggle">Web Design +</label>
+                  <a href="#">Web Design</a>
+                  <input type="checkbox" id="drop-2"/>
+                  <ul>
+                      <li><a href="#">Resources</a></li>
+                      <li><a href="#">Links</a></li>
+                      <li>
+                         
+                      <!-- Second Tier Drop Down -->        
+                      <label for="drop-3" class="toggle">Tutorials +</label>
+                      <a href="#">Tutorials</a>         
+                      <input type="checkbox" id="drop-3"/>
+  
+                      <ul>
+                          <li><a href="#">HTML/CSS</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">Other</a></li>
+                      </ul>
+                      </li>
+                  </ul>
+                  </li>
+                  <li style="margin-right: 90px;"><a href="#">Contact</a></li>
+                 
+                    <li class="mt-2"><input class="form-control-md mt-2" id="search" type="text">
+                      <label for="search"><i class="fas btn btn-primary fa-search"></i></label>
+                      <a href="#" class="btn btn-primary mt-1">Sign Up</a>
+                      </li>
+                          
+              </ul>
+              
+          </nav>
+          
+      </div>
+    </div>
+  </div>
+  <div class="main-header">
+    <div class="main-header-item">
+      <div class="main-header-content col-12 text-center">
+        <h1 class="mb-3 right-animation">welcome</h1>
+        <big class="left-animation d-block">welcome to our website.learn anywere</big>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <!-- /Main Header -->
+  <hr>
+  <!-- Catagory -->
+  <div class="catagory">
+    <div class="container">
+      <!-- Catagory Title -->
+      <div class="title col-12 mt-2 mb-4">
+        <h2 class="mb-3">Our Section</h2>
+      </div>
+      <!-- /Catagory Title -->
+      <div class="row">
+        <div class="col-md-3 mb-2">
+          <div class="catagory-box bg-light">
+            <div class="catagory-item pt-2 pb-2">
+              <a href="#">
+                <h3 class="mb-0">Tutorial</h3>
+              </a>
+              <a href="#">
+                <p class="mb-0">2 post</p>
+              </a>
+              <a href="#">
+                <p class="mb-0">view more</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="catagory-box bg-light">
+            <div class="catagory-item pt-2 pb-2">
+              <a href="#">
+                <h3 class="mb-0">Tutorial</h3>
+              </a>
+              <a href="#">
+                <p class="mb-0">2 post</p>
+              </a>
+              <a href="#">
+                <p class="mb-0">view more</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="catagory-box bg-light">
+            <div class="catagory-item pt-2 pb-2">
+              <a href="#">
+                <h3 class="mb-0">Tutorial</h3>
+              </a>
+              <a href="#">
+                <p class="mb-0">2 post</p>
+              </a>
+              <a href="#">
+                <p class="mb-0">view more</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="catagory-box bg-light">
+            <div class="catagory-item pt-2 pb-2">
+              <a href="#">
+                <h3 class="mb-0">Tutorial</h3>
+              </a>
+              <a href="#">
+                <p class="mb-0">2 post</p>
+              </a>
+              <a href="#">
+                <p class="mb-0">view more</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Catagory -->
+
+
+  <!-- Recent Post -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <!-- Catagory Title -->
+
+          <div class="title col-12 mt-5 mb-4">
+            <h2 class="mb-3">Top News</h2>
+          </div>
+          <!-- /Catagory Title -->
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-13.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-14.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-15.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-16.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-17.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-18.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-19.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-20.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-21.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-2.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-23.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-24.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+        </div>
+      </div>
+      <!--Sidebar -->
+      <div class="col-md-3 mb-4">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h3>Title</h3>
+            </div>
+          </div>
+          <!-- Sidebar Content -->
+          <div class="Sidebar-content mt-3 container">
+            <div class="row">
+              <div class="col-12">
+                <table>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-2.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-3.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-4.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-3.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-5.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-6.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-7.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-8.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-9.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-10.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-11.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Sidebar Content -->
+      </div>
+    </div>
+    <!-- /Sidebar -->
+  </div>
+  <!-- /Recent Post -->
+
+  <br><br><br>
+  <hr>
+<!-- Recent Post -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 mt-3">
+        <div class="row">
+          <!-- Catagory Title -->
+
+          <div class="title col-12 mt-5 mb-4">
+            <h2 class="mb-3">Recent News</h2>
+          </div>
+          <!-- /Catagory Title -->
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-2.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-3.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-4.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-5.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-6.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-7.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-8.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-10.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-11.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-12.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-13.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+          <div class="col-md-4">
+            <!-- post box -->
+            <div class="post-box">
+              <img src="images/img-14.jpg" class="img-fluid" alt="post image">
+              <a href="#">
+                <p class="mb-0 pt-3 pb-1">Whats new in laravel 4?</pclass="mb-none">
+              </a>
+              <a href="#">
+                <p class="date pb-2 ml-2">Aug-01 2019</p>
+              </a>
+            </div>
+            <!-- /post box -->
+          </div>
+        </div>
+      </div>
+      <!--Sidebar -->
+      <div class="col-md-3" style="margin-top: 15px;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title mt-5">
+              <h3>Title</h3>
+            </div>
+          </div>
+          <!-- Sidebar Content -->
+          <div class="Sidebar-content mt-3 container">
+            <div class="row">
+              <div class="col-12">
+                <table>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-2.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-3.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-4.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-5.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-6.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-7.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-8.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-9.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-10.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-11.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 30%;"><img src="images/img-12.jpg" alt="" style="max-width: 100%;"></td>
+                    <td style="width: 70%;"><a href="#" class="d-block small-font pt-3 pl-1">
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      </a></td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Sidebar Content -->
+      </div>
+    </div>
+    <!-- /Sidebar -->
+  </div>
+  <!-- /Recent Post -->
+  <!-- footer-menu -->
+  <div class="container-fluid bg-secondary">
+    <div class="container">
+      <div class="footer-menu bg-secondary">
+        <div class="row">
+          <div class="col-md-3 pt-4">
+            <a href="#">Subscribe Us</a>
+            <input class="form-control mt-2 ml-1 bg-light type="text" name="Subscribe"id="Subscribe">
+            <a href="#"><button class="btn btn-danger mt-1 ml-1">Subscribe</button></a>
+          </div>
+          <div class="col-md-3 pt-4">
+            <a class="d-block" href="#">Like Our Page</a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a class="small-font" href="#">69 Million People went to see who we are</a>
+          </div>
+          <div class="col-md-3 pt-4">
+            <p>Quick Link</p>
+            <a href="#" class="medium-font d-block">First Page</a>
+            <a href="#" class="medium-font d-block">Blog</a>
+            <a href="#" class="medium-font d-block">Contact</a>
+          </div>
+          <div class="col-md-3 pt-4">
+            <p>Others</p>
+            <a href="#" class="medium-font d-block">Recent Questions</a>
+            <a href="#" class="medium-font d-block">Conditions</a>
+            <a href="#" class="medium-font d-block">Tearms And Conditions</a>
+            <a href="#" class="medium-font d-block">Sidemap</a>
+          </div>
+        </div>
+          <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <p class="medium-font text-center pt-4 pb-4">copyright &copy 2019-2020.we are all right recive</p>
+        </div>
+      </div>
+      <!-- /Footer -->
+      </div>
+    </div>
+  </div>
+  <!-- /footer-menu -->
+  </div>
+
+
+
+  <!-- Font Awesome Icon -->
+  <script src="https://kit.fontawesome.com/8fdc8cb764.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome Icon -->
+  <!-- Bootstrap JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- /Bootstrap JS CDN -->
+
+
+</body>
+
+</html>

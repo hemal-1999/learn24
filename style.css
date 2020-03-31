@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.topbar-background-color{
+	background-color: #182E49;
+}
+.container-fluid{
+	background-color: #000;
+}
+.form-control-md{
+	height: 30px;
+	background-color: #333;
+	border:0;
+	margin-top: 5px;
+	color: #fff;
+	border-radius: 4px;
+}
+.fa-search{
+	margin-right: 15px;
+}
+.top-right-button{
+	background-color: #2A2E93;
+	width: 13em;
+	height: 4em;
+}
+.top-right-button p{
+	font-size: 20px;
+	line-height: 50px;
+	color:#fff;
+}
+body a{
+    color: #000;
+}
+body a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.form-control{
+	height: 45px;
+	background-color: #2A2E93;
+	border:none;
+	border-radius: 0;
+}
+.header-img img{
+	width: 70%;
+	margin-left: 25px;
+}
+
+.search-btn{
+	width: 7em;
+	height: 3em;
+}
+.right-topbar .login,.top-devider,.sign-up,button{
+	font-size: 20px;
+	color: #fff;
+	float: right;
+}
+/* check */nav{position: absolute;top:0;left: 0;width: 100%%;}
+
+.main-header-item{
+	position: relative;
+	background-image: url("././images/img-1.jpg");
+    background-position: center;
+    overflow: hidden;
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main-header-item::before{
+    content:"";
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.main-header-item img{
+    width: 100%;
+}
+.main-header-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	color: #fff;
+	z-index: 1;
+}
+.main-header-content h1,big{
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: 4px;
+}
+.right-animation{
+    animation-name: to-right;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+}
+.left-animation{
+    animation-name: to-left;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+}
+.title{
+    border-bottom: 1px solid #000;
+}
+.title h3{
+    margin-top: 60px;
+}
+.catagory-box {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 93%, rgba(47,47,140,1) 100%);
+}
+.catagory-box:hover{
+	transform: translateY(-6px);
+	transition: 0.4s;
+}
+.catagory{
+    margin-top: 5em;
+}
+.post-box{
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.post-box:hover{
+    transform: translateY(-4px);
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.2);
+}
+.post-box img{
+    border-radius: 6px 6px 0px 0px;
+    height: 150px;
+    width: 100%;
+}
+.post-box a{
+    padding-left: 1em;
+    display: block;
+    text-align: left;
+}
+.catagory-item{
+    width: 80%;
+    transform: translateX(25%);
+    text-transform: uppercase;
+}
+.catagory-item a h3{
+    font-size: 17px;
+    color:#fff;
+}
+.catagory-item p{
+    font-size: 10px;
+    color:#fff;
+}
+
+/* font */
+.date,.small-font{
+    font-size: 11px;
+    color:#333;
+}
+.medium-font{
+    font-size: 13px;
+    color:#333;
+}
+/* /font */
+.footer-menu,.footer-menu a,.footer-menu p{
+    color:#fff;
+}
+.footer-menu{
+    margin-top: 60px;
+}
+.footer{
+    margin-top: 35px;
+    border-top: 2px solid #fff;
+}
+.footer .container p{
+    font-weight: bold;
+    word-spacing: 1px;
+}
+/* footer */
+
+
+
+/* Animation */
+@keyframes to-right{
+    0%{
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(7px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes to-left{
+    0%{
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(-7px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/* /Animation */
+
+
+/* Responsive */
+/* Sizing Image */
+@media screen and (max-width:767px) and (min-width:300px){
+    .post-box img{
+        height: 200px;
+    }
+}
+@media screen and (max-width:767px){
+	.nav-header-item{
+		width:100vw;
+	}
+}
+/* /Sizing Image */
+/* /Responsive */
+
+
+
+
+
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	line-height: 70px;
+	font-family: 'Bree Serif', 'serif';
+	}
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+p {
+	text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+	margin:0;
+	padding: 0;
+	background-color: #000;
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size:20px;
+	line-height: 60px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: #000;
+	}
+
+/* Styling the links */
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+
+
+nav ul li ul li:hover { background: #000000; }
+
+/* Background color change on Hover */
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+	.custom-search{
+		margin-left: 0;
+	}
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #254441;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #000000;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #000000;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media screen and (max-width:892px){
+	nav{
+		width: 100%;
+	}
+}
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
